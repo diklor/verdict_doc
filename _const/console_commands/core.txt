@@ -1,10 +1,10 @@
-x
-a
-reload_console
-quit
-exit
-clear
-delete_history
-help
-cmds
-extra_shortcuts
+x  -  Close console
+a  -  Open console
+reload_console  -  Reload console
+quit  -  Quit game
+exit  -  Exit console (same as quit lol)
+clear  -  Clear console
+delete_history  -  Delete console history (file)
+help  -  Useful info
+cmds  -  Commands list
+extra_shortcuts  -  Print list of extra shortcuts and their keycodes
