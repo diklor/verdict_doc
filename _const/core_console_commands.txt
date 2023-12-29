@@ -1,0 +1,10 @@
+x
+a
+reload_console
+quit
+exit
+clear
+delete_history
+help
+cmds
+extra_shortcuts
