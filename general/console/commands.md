@@ -1,6 +1,7 @@
 ## Core Commands:
 
 ```
+x   #  Close close
 a   #   Open console
 reload_console   #   Reload console
 quit   #   Quit game
@@ -12,7 +13,7 @@ cmds   #   Commands list
 extra_shortcuts   #   Print list of extra shortcuts and their keycodes
 ```
 
-##User Commands:
+## User Commands:
 
 ```
 death   #   Roblox gift cards generator
