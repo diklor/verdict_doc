@@ -40,7 +40,7 @@ set   #   Set weapon by weapon's name [Example: set ak49,  set kalamit false   (
 get   #   Get weapon name by weapon type [Example:  get primary -> ak49,  get secondary -> Empty ]
 set_rule   #   Get weapon name by weapon type [Example:  get primary -> ak49,  get secondary -> Empty ]
 fill   #   Fill ammo of current weapon or weapon type in the first argument.
-Second argument is fill with magazines [fill weapon_type fill_mags (true / false (optional, default is false))] [Example:  fill,   fill primary,   full auto true  (fill mags)]
+# Second argument is fill with magazines [fill weapon_type fill_mags (true / false (optional, default is false))][Example:  fill,   fill primary,   full auto true  (fill mags)]
 types   #   Print all weapon types
 cfg_set   #   Set config value by name [Example: cfg_set ui_scale 2 ]
 cfg_get   #   Get config setting value by name [Example: cfg_get ui_scale ]
