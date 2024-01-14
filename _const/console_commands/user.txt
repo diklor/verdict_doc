@@ -1,24 +1,28 @@
-killp  -  Fake kill player [Example: killp player_name weapon_name] [Default:  killp PLAYER_NAME]
 death  -  Roblox gift cards generator
-damage  -  Damage self (No arguments is damage 10) [Example: damage 30 ]
+damage  -  amount: number = 10 :: Damage self (No arguments is damage 10) [Example: damage 30 ]
 _hand  -  Toggle left hand
 _mobile_ui  -  Toggle mobile ui (TEST)
 flash  -  Flash screen like by grenade
-notify  -  Show notification
+notify  -  text: string, _r: number = 1, g: number = 1, b: number = 1 :: Show notification
 update_visual  -  Update visual settings (Graphics and other settings)
 _wireframe  -  Toggle wireframe drawing
+next_weapon  -  Set next weapon in gun game mode's weapons list
+tp  -  victim_username: string, _target_username: string :: Teleport player to another player. [tp @victim @target  #(Victim to target)] / [tp @target  #(Me to target)]
+weapon_blend  -  blend_name: string = '' ::Change blend to value
 setup  -  Setup weapon
+weapon_impact  -  x: number = 0, y: number = 0 :: [weapon_impact 10 1] Shove weapon
+jump  -  Jump
 filters_list  -  Print screen-filters list
 binds  -  Print binds list
 load_binds  -  Load custom binds again
 load_filters  -  Load screen-filters again
 filters_clear  -  Clear all screen-filters
-spawn_bot  -  Spawn bot where camera is looking
+spawn_bot  -  fake_plr_name: string = '' :: [spawn_bot fake_player_username (to add fake player type "fake_plr_add username")] Spawn bot where camera is looking
 _pause  -  Toggle game paused
 is_paused  -  Is game paused
-console_pause  -  Pause game when console opened
+console_pause  -  state: bool :: Pause game when console opened
 error_codes  -  Print all error codes and their meanings
-gm  -  Print all error codes and their meanings
+gm  -  gm_name: string, map_name: string :: Change gamemode and map
 set  -  Set weapon by weapon's name [Example: set ak49,  set kalamit false   (false - don't drop previous)   ]
 get  -  Get weapon name by weapon type [Example:  get primary -> ak49,  get secondary -> Empty ]
 set_rule  -  Get weapon name by weapon type [Example:  get primary -> ak49,  get secondary -> Empty ]
@@ -28,6 +32,11 @@ types  -  Print all weapon types
 cfg_set  -  Set config value by name [Example: cfg_set ui_scale 2 ]
 cfg_get  -  Get config setting value by name [Example: cfg_get ui_scale ]
 cfg_reset  -  Reset config settings (Only settings that are in "Settings" section of the menu)
+fake_plr_add  -  [fake_plr_add username spawn_character], [fake_plr_add pro true] Add fake player (locally). You can see it in  • Tab, • Server players, • When adding bot with it's name (spawn_bot fake_player_username)    and etc.
+fake_plr_set  -  [fake_plr_set username kills 100], [fake_plr_set username died false]  Set fake player's parameter (locally).
+fake_plr_remove  -  Remove fake player (locally).
+set_auto_exec  -  [add_auto_exec "notify "hi", setup primary, jump"] Add auto_exec.txt file with inputed text
+open_auto_exec  -  Opens auto_exec.txt file. Creates new one if it does not exist
 single  -  Quickly start a single-player game. [gamemode, map]
 bind  -  Bind available actions. Write "bind "command_name arg1 arg2 arg..." repeats_count" and then press key
 unbind  -  Unbind all events to given action. [Example: unbind flash ]
