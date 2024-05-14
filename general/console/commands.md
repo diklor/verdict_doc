@@ -1,5 +1,5 @@
 ## Core Commands:
-
+---
 ```
 x   #  Close close
 a   #   Open console
@@ -14,7 +14,7 @@ extra_shortcuts   #   Print list of extra shortcuts and their keycodes
 ```
 
 ## User Commands:
-
+---
 ```
 death   #   Roblox gift cards generator
 damage   #   Damage self (No arguments is damage 10) [Example: damage 30 ]
